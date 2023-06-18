@@ -1,7 +1,7 @@
-import React, { useRef } from 'react';
-import './Signup.css';
-import { auth } from '../firebase';
-import { useNavigate } from 'react-router-dom';
+import React, { useRef } from "react";
+import "./Signup.css";
+import { auth } from "../firebase";
+import { useNavigate } from "react-router-dom";
 
 function Signup() {
     const emailRef = useRef(null);

@@ -1,5 +1,5 @@
-import React from 'react';
-import './CreateProfile.css';
+import React from "react";
+import "./CreateProfile.css";
 
 function CreateProfile() {
     return (

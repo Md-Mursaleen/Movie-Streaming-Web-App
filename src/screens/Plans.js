@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import db from '../firebase';
-import './Plans.css';
-import { useSelector } from 'react-redux';
-import { selectUser } from '../features/counter/userSlice';
-import { loadStripe } from '@stripe/stripe-js';
+import React, { useEffect, useState } from "react";
+import db from "../firebase";
+import "./Plans.css";
+import { useSelector } from "react-redux";
+import { selectUser } from "../features/counter/userSlice";
+import { loadStripe } from "@stripe/stripe-js";
 
 function Plans() {
     const [products, setProducts] = useState([]);

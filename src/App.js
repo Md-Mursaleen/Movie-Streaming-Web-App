@@ -1,16 +1,16 @@
-import React, { useEffect } from 'react';
-import './App.css';
-import Home from './screens/Home';
-import Login from './screens/Login';
-import { useDispatch, useSelector } from 'react-redux';
-import { login, logout, selectUser } from './features/counter/userSlice';
+import React, { useEffect } from "react";
+import "./App.css";
+import Home from "./screens/Home";
+import Login from "./screens/Login";
+import { useDispatch, useSelector } from "react-redux";
+import { login, logout, selectUser } from "./features/counter/userSlice";
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
-import { auth } from './firebase';
-import Profile from './screens/Profile';
+import { auth } from "./firebase";
+import Profile from "./screens/Profile";
 
 function App() {
   const dispatch = useDispatch();

@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import './Navbar.css';
-import db from './firebase';
-import { useNavigate } from 'react-router-dom';
-import { useSelector } from 'react-redux';
-import { selectUser } from './features/counter/userSlice';
+import React, { useEffect, useState } from "react";
+import "./Navbar.css";
+import db from "./firebase";
+import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { selectUser } from "./features/counter/userSlice";
 
 function Navbar() {
     const [subscription, setSubscription] = useState(null);

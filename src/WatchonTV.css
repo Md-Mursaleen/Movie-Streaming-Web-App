@@ -1,61 +1,61 @@
 .watchontv-contents {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5%;
-    background-color: black;
-    color: white;
-    border-bottom: 12px solid #222;
-    overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5%;
+  background-color: black;
+  color: white;
+  border-bottom: 12px solid #222;
+  overflow-x: hidden;
 }
 
 .watchontv-text {
-    position: relative;
-    left: 5%;
+  position: relative;
+  left: 5%;
 }
 
 .watchontv-text-title {
-    font-size: 3.625rem;
-    font-weight: 600;
+  font-size: 3.625rem;
+  font-weight: 600;
 }
 
 .watchontv-text-description {
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 10px;
 }
 
-.watchontv-animation>video {
-    height: 50vh;
-    width: 40vw;
-    object-fit: contain;
+.watchontv-animation > video {
+  height: 50vh;
+  width: 40vw;
+  object-fit: contain;
 }
 
 @media only screen and (max-width: 349px),
-only screen and (min-width: 350px) and (max-width: 399px),
-only screen and (min-width: 400px) and (max-width: 549px),
-only screen and (min-width: 550px) and (max-width: 949px) {
-    .watchontv-text {
-        left: 0%;
-        text-align: center;
-    }
+  only screen and (min-width: 350px) and (max-width: 399px),
+  only screen and (min-width: 400px) and (max-width: 549px),
+  only screen and (min-width: 550px) and (max-width: 949px) {
+  .watchontv-text {
+    left: 0%;
+    text-align: center;
+  }
 
-    .watchontv-text-title {
-        font-size: 1.625rem;
-    }
+  .watchontv-text-title {
+    font-size: 1.625rem;
+  }
 
-    .watchontv-text-description {
-        font-size: 1.125rem;
-        align-items: center;
-    }
+  .watchontv-text-description {
+    font-size: 1.125rem;
+    align-items: center;
+  }
 
-    .watchontv-contents {
-        flex-direction: column;
-    }
+  .watchontv-contents {
+    flex-direction: column;
+  }
 
-    .watchontv-animation>video {
-        height: 25vh;
-        width: 70vw;
-        border: none;
-    }
+  .watchontv-animation > video {
+    height: 25vh;
+    width: 70vw;
+    border: none;
+  }
 }

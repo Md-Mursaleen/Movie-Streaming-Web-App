@@ -1,5 +1,5 @@
-import React from 'react';
-import './WatchonTV.css';
+import React from "react";
+import "./WatchonTV.css";
 
 function WatchonTV() {
     return (

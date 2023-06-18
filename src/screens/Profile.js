@@ -1,10 +1,10 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
-import { selectUser } from '../features/counter/userSlice';
-import Navbar from '../Navbar';
-import './Profile.css';
-import { auth } from '../firebase';
-import Plans from './Plans';
+import React from "react";
+import { useSelector } from "react-redux";
+import { selectUser } from "../features/counter/userSlice";
+import Navbar from "../Navbar";
+import "./Profile.css";
+import { auth } from "../firebase";
+import Plans from "./Plans";
 
 function Profile() {
     const user = useSelector(selectUser);

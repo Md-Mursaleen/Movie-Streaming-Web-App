@@ -1,5 +1,5 @@
-import React from 'react';
-import './WatchAnywhere.css';
+import React from "react";
+import "./WatchAnywhere.css";
 
 function WatchAnywhere() {
     return (

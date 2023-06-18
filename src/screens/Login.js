@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import './Login.css';
-import Signup from './Signup';
-import WatchonTV from '../WatchonTV';
-import DownloadShows from '../DownloadShows';
-import WatchAnyWhere from '../WatchAnywhere';
-import CreateProfile from '../CreateProfile';
-import Footer from '../Footer';
+import React, { useState } from "react";
+import "./Login.css";
+import Signup from "./Signup";
+import WatchonTV from "../WatchonTV";
+import DownloadShows from "../DownloadShows";
+import WatchAnyWhere from "../WatchAnywhere";
+import CreateProfile from "../CreateProfile";
+import Footer from "../Footer";
 
 function Login() {
     const [signin, setSignin] = useState(false);
